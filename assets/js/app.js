@@ -68,5 +68,5 @@ document.querySelector('[data-mail-form]')?.addEventListener('submit', event => 
   ];
   const subject = encodeURIComponent(`Project inquiry from ${data.get('name') || 'website visitor'}`);
   const body = encodeURIComponent(lines.join('\n'));
-  window.location.href = `mailto:info@tenpeakmedia.com?subject=${subject}&body=${body}`;
+  window.location.href = `mailto:adam@tenpeakmedia.com?subject=${subject}&body=${body}`;
 });
